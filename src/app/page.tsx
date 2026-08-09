@@ -9,9 +9,12 @@ export default function Home() {
           Your intelligent workspace for studying, planning, and achieving your goals.
         </p>
         <div className="mt-10 flex items-center justify-center gap-x-6">
-          <button className="rounded-xl bg-zinc-900 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-zinc-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-900 dark:bg-zinc-50 dark:text-zinc-900 dark:hover:bg-zinc-200 transition-colors">
-            Get Started
-          </button>
+              <a
+      href="/register"
+      className="rounded-xl bg-zinc-900 px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-zinc-800 dark:bg-zinc-50 dark:text-zinc-900 dark:hover:bg-zinc-200"
+    >
+      Get Started
+    </a>
         </div>
       </main>
     </div>
